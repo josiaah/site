@@ -1,7 +1,7 @@
 {
-  "name": "iara",
+  "name": "iara-daisuke",
   "version": "1.0.0",
-  "description": "The source code for the bot powered by DuoClient.",
+  "description": "An all purpose discord bot.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/josiaah/template.git"
   },
-  "keywords": [],
-  "author": "josiaah",
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Github"
+  ],
+  "author": "josiah rose",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/josiaah/template/issues"
   },
   "homepage": "https://github.com/josiaah/template#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.4"
   }
 }
