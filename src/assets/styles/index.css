@@ -1,9 +1,10 @@
 /* purgecss start ignore */
 @tailwind base;
-@tailwind components;
-/* purgecss end ignore */
-@tailwind utilities;
 
 body {
     background: #1a202c;
 }
+
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
