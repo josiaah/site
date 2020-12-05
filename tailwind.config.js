@@ -3,7 +3,7 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: ["./components/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}"],
+  purge: [],
   target: 'relaxed',
   prefix: '',
   important: false,
@@ -33,6 +33,11 @@ module.exports = {
         700: '#4a5568',
         800: '#2d3748',
         900: '#1a202c',
+      },
+      discord: {
+          100: '#99AAB5',
+          200: '#2C2F33',
+          300: '#23272A'
       },
       red: {
         100: '#fff5f5',
