@@ -1,22 +1,22 @@
 <template>
   <footer class="flex flex-wrap items-center justify-between p-4">
     <div class="w-full lg:w-auto lg:mr-6 mb-4 lg:mb-0 text-center">
-      © 2020 Bam Games
+      © 2021 Bam Games
     </div>
     <div class="flex flex-col lg:flex-row items-center w-full lg:w-auto">
       <div class="mx-auto lg:mx-0 lg:ml-auto">
         <a
           class="inline-block mt-0 text-blue-900 hover:text-indigo-600"
           href="#"
-          >Products</a
+          >Privacy Policy</a
         ><a
           class="inline-block mt-0 ml-8 text-blue-900 hover:text-indigo-600"
           href="#"
-          >Team</a
+          >Terms of Service</a
         ><a
           class="inline-block mt-0 ml-8 text-blue-900 hover:text-indigo-600"
           href="#"
-          >Customers</a
+          >Contact Us</a
         >
       </div>
       <div class="flex justify-center space-x-6 mt-4 lg:mt-0 lg:ml-8">

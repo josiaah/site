@@ -1,7 +1,9 @@
 <template>
   <nav class="flex items-center justify-between flex-wrap p-6">
     <div class="flex items-center flex-no-shrink mr-6">
+      <a href="/">
       <img src="~/assets/img/ga.png" class="w-20 h-20" />
+      </a>
     </div>
     <div class="block sm:hidden">
       <button
@@ -24,25 +26,25 @@
     >
       <div class="text-xl sm:flex-grow">
         <a
-          href="#responsive-header"
+          href="/groups"
           class="no-underline montserrat font-medium text-gray-800 block mt-4 sm:inline-block sm:mt-0 mr-4"
         >
-         Games & Groups
+          Groups
         </a>
         <a
-          href="#responsive-header"
+          href="/support"
           class="no-underline montserrat font-medium text-gray-800 block mt-4 sm:inline-block sm:mt-0 mr-4"
         >
-          Support & Information
+          Support
         </a>
         <a
-          href="#responsive-header"
+          href="/partner"
           class="no-underline montserrat font-medium text-gray-800 block mt-4 sm:inline-block sm:mt-0 mr-4"
         >
           Partnerships
         </a>
         <a
-          href="#responsive-header"
+          href="/jobs"
           class="no-underline montserrat font-medium text-gray-800 block mt-4 sm:inline-block sm:mt-0 mr-4"
         >
           Jobs
@@ -50,7 +52,7 @@
       </div>
       <div>
         <a
-          href="#"
+          href="https://www.roblox.com/groups/7324717/B-A-M-Games"
           class="uppercase text-white no-underline inline-block font-bold text-md px-6 py-4 leading-none bg-green-500 hover:bg-green-600 rounded mt-4 sm:mt-0"
           >Join the Group!</a
         >
